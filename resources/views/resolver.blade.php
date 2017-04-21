@@ -9,7 +9,7 @@
 
     <p>The Resolver is the central component of the OpenDiscovery project. Its task is to aquire information about a legal business entity based on the international version of its corporate ID. For businesses in the European Union this implies the EUID as defined in EU Regulation 2015/884 of 8 June 2015.</p>
 
-    <p>The resolver distiguishes between two classes of information about a business:<br>
+    <p>The resolver distinguishes between two classes of information about a business:<br>
         <b>Official: </b>Information retrieved from the business register<br>
         <b>Voluntary: </b> Self-asserted and/or third party certified information exhibited by the business itself, e.g. using the OpenDiscovery <a href="/publisher">Business Publisher</a>.
     </p>
