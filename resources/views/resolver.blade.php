@@ -5,6 +5,8 @@
 @section('content')
     <h1>Resolver</h1>
 
+    <a href="/imgs/OpenDiscoveryResolver.png"><img src="/imgs/OpenDiscoveryResolver.png" style="max-width: 40%; float: right; margin: 0 0 1em 1em;"></a>
+
     <p>The Resolver is the central component of the OpenDiscovery project. Its task is to aquire information about a legal business entity based on the international version of its corporate ID. For businesses in the European Union this implies the EUID as defined in EU Regulation 2015/884 of 8 June 2015.</p>
 
     <p>The resolver distiguishes between two classes of information about a business:<br>
