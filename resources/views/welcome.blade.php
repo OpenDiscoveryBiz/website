@@ -27,7 +27,7 @@
     <li><b>Identity Validation:</b> Provides an easier, cheaper, and more flexible alternative to EV-Certificates.</li>
     <li><b>Privacy & Consent:</b> Consent can be managed in the aggregation and prioritization tools, so consumers will only be forwarded to business entities that comply with their own privacy policies.</li>
     <li><b>Significant savings:</b> Today, discovery costs (e.g. to GAFA's) typically amounts to 15-30 percent of the traded value. As Distributed Discovery ensures normal competition for vendor as well as consumer tools, this amount can be expected to drop significantly.</li>
-    <li><b>Platform indepence:</b> No more need for vendors to register with several intermediaries to expose themselves to every consumer - or for consumers to register with more platforms to avoid the risk of missing attractive offers.</li>
+    <li><b>Platform independence:</b> No more need for vendors to register with several intermediaries to expose themselves to every consumer - or for consumers to register with more platforms to avoid the risk of missing attractive offers.</li>
 </ul>
 
 <p>The OpenDiscovery project is supported by<br />
