@@ -17,7 +17,7 @@
     <p><b>[BusinessID].json</b> containing (reference to) self-asserted and/or third party validated information about the entity<br />
         (example: <a href="https://www.peercraft.com/.well-known/opendiscovery/DK33755341.json">https://www.peercraft.com/.well-known/opendiscovery/DK33755341.json</a>)</p>
 
-    <p>Websites with individual pages representing different legal entities, may insert a local HTTP Header with the following syntax to override the BusinessID provided in host.json for individual pages.</p>
+    <p>Websites with pages representing different legal entities, may insert the HTTP header-field <b>X-OpenDiscovery-ID</b> with the respective BusinessID's as field value to override the BusinessID provided in host.json for these pages.</p>
 
     <p>The purpose of OpenDiscovery is to facilitate the creation of a new data driven ecosystem for exchange of products and services.</p>
 
