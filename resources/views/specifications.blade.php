@@ -7,7 +7,7 @@
 
     <p>OpenDiscovery relies on the mutual reference between the public record of a legal entity in its authoritative business register and a URL providing self-asserted or third party validated information about the entity and its services.</p>
 
-    <p>So far the national business registers of Denmark, Norway, Finland, and New Zealand have enabled legal entities to reference a URL in their public records.</p>
+    <p>So far the national business registers of Denmark, Norway, Finland, Greece, and New Zealand have enabled legal entities to reference a URL in their public records.</p>
 
     <p>The default OpenDiscovery method for an entity to refer back to its official records and to voluntarily provide further reference to its services is using .well-known [RFC5785] with the requested IANA URI suffix "opendiscovery" to locate the files:</p>
 
