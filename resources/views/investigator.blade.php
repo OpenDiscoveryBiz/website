@@ -13,14 +13,26 @@
 
     <p>Business Investigator is available in Google's <a href="https://chrome.google.com/webstore/detail/business-investigator/kdnkelhohlogiebdcmicchkadjmkhdgm" target="_blank">Chrome webstore</a> and works with most Chrome based browsers.</p>
 
-    <p style="margin-top: 3em"><b>PRIVACY POLICY</b></p>
+    <h2>DATA FLOW</h2>
 
-    <p>The purpose of the Business Investigator extension and the associated Resolver is exclusively to provide the user with authoritative and trustworthy information about the Business entity running the website - or the specific page of a website - that the user is visiting.</p>
+    <p>(NOTE: Exclusively Business / Website Owner data - no user data involved)</p>
 
-    <p>In order to verify the binding between the website/webpage and the business entity, the extension needs to get the domain or page URL to look for a specific tag/header/file containing the asserted internationalized Business Registry ID.</p>
+    <p>The purpose of the Business Investigator extension and the associated Resolver is to provide the user with authoritative and trustworthy information about the Business entity in charge of a visited website - all without revealing any information about the user to the website owner or any other party.</p>
 
-    <p>The Business ID is sent to the Resolver in order to retrieve information from the Business Registry and optionally more trustworthy sources, and then locally compare if the business is asociated with the website.</p>
+    <p>To do this the extension needs to get the domain or page URL to look for a specific tag/header/file containing the asserted internationalized Business Registry ID.</p>
 
-    <p>Business entity data may be cached by the resolver for up to 24 hours to avoid excessive load on the data sources. They will NOT be used to compile any kind of web usage history for any specific users.</p>
+    <p>The Business ID claimed by the website owner - but no user data - is sent to the external Resolver in order to retrieve information from the Business Registry and optionally more trustworthy sources. The final process of verifying the binding between website and business entity is done locally by the extension.</p>
+
+    <p>Business entity data may be cached by the Resolver for up to 24 hours to avoid excessive load on the data sources. But as they are not referenced to any user data, they cannot be used to compile any kind of web usage history for any specific users. Website / Business data is cached in the browser's memory only <a href="https://developer.chrome.com/docs/extensions/reference/api/storage#storage_areas" target="_blank">session storage</a>.</p>
+
+    <h2>PRIVACY POLICY</h2>
+
+    <p><b>User Data Collection</b><br />The extension does not collect any user data.</p>
+
+    <p><b>User Data Handling</b><br />The extension does not process any user data.</p>
+
+    <p><b>User Data Sharing</b><br />The extension does not share any user data with the developer or with third parties</p>
+
+    <p><b>User Data Storage</b><br />The extension does not store any user data.</p>
 
 @stop
