@@ -22,6 +22,7 @@ COPY . .
 COPY --from=frontend /app/public/build ./public/build
 
 RUN composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+RUN cp vendor/laravel/octane/src/Commands/stubs/frankenphp-worker.php public/frankenphp-worker.php
 
 EXPOSE 8000
 
