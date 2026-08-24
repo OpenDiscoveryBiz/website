@@ -4,4 +4,4 @@
 
 <title>OpenDiscovery - @yield('title')</title>
 
-<link href="/css/app.css" rel="stylesheet" type="text/css">
+@vite(['resources/sass/app.scss', 'resources/js/app.js'])
